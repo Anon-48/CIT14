@@ -14,6 +14,7 @@
         <a href="03-navigation.html">03-Navigation</a> |
         <a href="04-form.html">04-Form</a> |
         <a href="05-semantic.html">05-Semantic</a> |
+        <a href="portfolio.html">Portfolio</a> |
     </nav>
 
     <br>
@@ -29,41 +30,13 @@
 
     <p><b><i>Form Challenge</i></b></p>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name">
-
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
-
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-
-        <label for="newsletter">
-            <input type="checkbox" name="newsletter" id="newsletter">
-            Subscribe to newsletter
-        </label>
-
-        <fieldset>
-            <legend>Gender:</legend>
-            <label for="male">
-                <input type="radio" name="gender" id="male" value="male">
-                Male
-            </label>
-            <label for="female">
-                <input type="radio" name="gender" id="female" value="female">
-                Female
-            </label>
-        </fieldset>
-
-        <input type="submit" value="Submit">
-    </form>
-
-
     <br>
-<H2>Test</H2>
 
-    form>label[for="student"]{Student ID:}+input:password+label[for="email"]{Email:}+input:email+(fieldset>legend{Gender:})+input[type="submit" value="Submit"]
-    
+
+    form>label[for="student"]{ Student ID: }+input:text+label[for"fullname"]{ Full Name: }input:text>br>label[for="email"]{ Email: }+input:email+label[for="password"]{ Password: }+input:password>br>(fieldset>legend{Gender:}+input[type="radio" value="male"]{Male}+input[type="radio" value="female"]{Female})+div.form-group>label[for="course"]{Course:}+select[id="course" name="course"]>(option[value=""]{Select a course}+option[value="cs"]{Computer Science}+option[value="it"]{Information Technology}+option[value="ce"]{Computer Engineering})+button[type="submit" value="Submit"]
+
+    div.form-group>span{Hobbies:}
+
+
 </body>
 </html>
