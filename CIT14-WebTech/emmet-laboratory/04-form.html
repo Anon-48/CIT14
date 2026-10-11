@@ -33,10 +33,28 @@
     <br>
 
 
-    form>label[for="student"]{ Student ID: }+input:text+label[for"fullname"]{ Full Name: }input:text>br>label[for="email"]{ Email: }+input:email+label[for="password"]{ Password: }+input:password>br>(fieldset>legend{Gender:}+input[type="radio" value="male"]{Male}+input[type="radio" value="female"]{Female})+div.form-group>label[for="course"]{Course:}+select[id="course" name="course"]>(option[value=""]{Select a course}+option[value="cs"]{Computer Science}+option[value="it"]{Information Technology}+option[value="ce"]{Computer Engineering})+button[type="submit" value="Submit"]
-
-    div.form-group>span{Hobbies:}
-
-
+    <form action=""><label for="student"> Student ID: </label><input type="text" name="" id=""><label for=""> Full Name: </label>
+        <input type="text" name="" id="">
+            <br><label for="email"> Email: </label><input type="email" name="" id=""><label for="password"> Password: </label>
+                <input type="password" name="" id="">
+                    <br>
+                        <div class="form-group" for="">Gender:</div>
+                        <input type="radio" value="male">Male</input><input type="radio" value="female">Female</input>
+                        <div class="form-group"><label for="course">Course:</label>
+                            <select name="course" id="course">
+                                <option value="">Select a course</option>
+                                <option value="cs">Computer Science</option>
+                                <option value="it">Information Technology</option>
+                                <option value="ce">Computer Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><span>Hobbies: </span><input type="checkbox" id="hobby1"><label for="hobby1">Playing Games</label><input type="checkbox" id="hobby2"><label for="hobby2">Reading Books</label><input type="checkbox" id="hobby3"><label for="hobby3">Coding</label></div>
+                        <div class="form-group"><label for="">Address: </label><input type="text" id="address"></div>
+                        <input type="submit" value="Submit">
+                    </br>
+                </input>
+            </br>
+        </input>
+    </form>
 </body>
 </html>
